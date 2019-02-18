@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widht, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimun-scale=1.0">
+    <title>Blog with Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css\estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #2559A6;">
+        <a class="navbar-brand" href="#">
+          <img src="images/bold.svg" width="50" height="50" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><strong>Search</strong></button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <section class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="blog-title">BLOG WEB</h1>
+          <p class="blog-description">This blog is a example of a web page construct with Bootstrap 4.</p>
+        </div>
+    </section>
+
+    <section class = "main container">
+      <div class="row">
+        <section class="posts col-md-9">
+          <div class="bread_crumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Categories</a></li>
+              <li class="breadcrumb-item active">Web Desing</li>
+            </ol>
+          </div>
+
+          <article class="post clearfix">
+              <a href="#" class="thumb">
+                <img src="images/HTML5.jpg" class="img-thumbnail" alt="">
+              </a>
+              <h2 class="post-title">
+                <a href="#">HTML5</a>
+              </h2>
+              <p><span class="post-date">18/02/2019</span> by <span class="post-autor"><a href="#">Victor Olave</a></span></p>
+              <p class="post-content text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <div class="button-container">
+                <a href="#" class="btn btn-primary">Leer mas</a>
+                <a href="#" class="btn btn-success">Comentarios <span class="badge badge-pill badge-light">20</span></a>
+              </div>
+          </article>
+
+          <article class="post clearfix">
+              <a href="#" class="thumb">
+                <img src="images/CSS3.png" class="img-thumbnail" alt="">
+              </a>
+              <h2 class="post-title">
+                <a href="#">CSS3</a>
+              </h2>
+              <p><span class="post-date">18/02/2019</span> by <span class="post-autor"><a href="#">Victor Olave</a></span></p>
+              <p class="post-content text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <div class="button-container">
+                <a href="#" class="btn btn-primary">Leer mas</a>
+                <a href="#" class="btn btn-success">Comentarios <span class="badge badge-pill badge-light">20</span></a>
+              </div>
+          </article>
+
+          <article class="post clearfix">
+              <a href="#" class="thumb">
+                <img src="images/javascript.png" class="img-thumbnail" alt="">
+              </a>
+              <h2 class="post-title">
+                <a href="#">Javascript</a>
+              </h2>
+              <p><span class="post-date">18/02/2019</span> by <span class="post-autor"><a href="#">Victor Olave</a></span></p>
+              <p class="post-content text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <div class="button-container">
+                <a href="#" class="btn btn-primary">Leer mas</a>
+                <a href="#" class="btn btn-success">Comentarios <span class="badge badge-pill badge-light">20</span></a>
+              </div>
+          </article>
+
+          <nav>
+              <div class="center-block">
+                <ul class="pagination justify-content-center">
+                  <li class="disabled page-item"><a class="page-link" href="#">&laquo;<span class="sr-only">Anterior</span></a></li>
+                  <li class="active page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item"><a class="page-link" href="#">&raquo;<span class="sr-only">Siguiente</span></a></li>
+                </ul>
+
+              </div>
+          </nav>
+
+        </section>
+        <aside class="col-md-3 d-none d-md-block">
+          <h4>Categorias</h4>
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Web Desing</a>
+            <a href="#" class="list-group-item">HTML5</a>
+            <a href="#" class="list-group-item">CSS3</a>
+            <a href="#" class="list-group-item">Javascript</a>
+          </div>
+          <h4>Articulos Recientes</h4>
+          <div class="list-group">
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">HTML 5</h4>
+              <p class="list-group-item-text">Learm HTML5 with me.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">CSS 3</h4>
+              <p class="list-group-item-text">Learm CSS3 with me.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Javascript</h4>
+              <p class="list-group-item-text">Learm Javascript with me.</p>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p>Victor Olave | Popayán, Colombia</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
